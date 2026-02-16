@@ -12,11 +12,11 @@ Repository created within the framework of undergraduate thesis preparation.
 - VaR and Expected Shortfall calculation
 
 ## Structure
+`diffusion_model_training.ipynb` – главный Jupyter ноутбук со всем кодом:
+    - Загрузка данных S&P 500
+    - Реализация диффузионной модели
+    - Нейронная сеть для предсказания шума
+    - Обучение модели
+    - Расчет риск-метрик (VaR, ES)
+    - Визуализация результатов
 
-- data_loader.py – data preprocessing
-- diffusion_model.py – forward diffusion
-- network.py – neural network
-- train.py – model training
-- generate.py – synthetic data generation
-- risk_metrics.py – risk metrics
-- utils.py – statistical utilities
